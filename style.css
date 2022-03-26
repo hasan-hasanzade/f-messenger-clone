@@ -1,0 +1,80 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 100vh;
+   overflow-y: hidden;
+}
+
+.messenger-nav {
+  
+
+  display: flex;
+   
+
+}
+
+.nav-left {
+   flex-basis: 25%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 25px;
+}
+
+.nav-right {
+
+   flex:1;
+   display: flex;
+   justify-content: flex-end;
+}
+
+.profile-chat-above-section {
+   width: 65%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   
+}
+
+.nav-right-icons {
+   width: 35%;
+   display: flex;
+   justify-content: center;
+}
+
+.container {
+   background: orange;
+   display: flex;
+   height: 95vh;
+}
+
+.left-side {
+   background:yellow;
+   flex-basis: 30%;
+   height: 100vh;
+ 
+
+}
+
+.message-section {
+   overflow-y: scroll;
+   height: 95%;
+   
+}
+
+.main {
+   background:green;
+   flex:1;
+   height: 85vh;
+}
+
+img {
+   width: 36px;
+}

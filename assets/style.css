@@ -1,0 +1,293 @@
+*,
+*::before,
+*::after {
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+   outline: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+ul,
+ol,
+li {
+   list-style: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+html,
+body {
+   height: 100%;
+   line-height: 1;
+   font-size: 14px;
+   color: #252B42;
+   font-weight: 500;
+   font-family: Arial;
+   background: #fafafa;
+   overflow: hidden;
+}
+
+
+svg {
+   width: 29px;
+   fill: #0285f9;
+   cursor: pointer;
+}
+
+/*------------------Header-----*/
+
+.header {
+   display: flex;
+   width: 100%;
+   border-bottom: 2px solid rgb(206, 206, 206);
+   padding: 10px 0;
+   
+}
+
+.header__messenger {
+   width: 40%;
+   display: flex;
+   justify-content: space-between;
+   border-right: 2px solid rgb(206, 206, 206);
+   padding: 0 20px ;
+}
+
+.header__chat {
+   width: 60%;
+   display: flex;
+   justify-content: flex-end;
+}
+
+.chat__name {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.chat__title {
+   font-size: 16px;
+   margin-bottom: 3px;
+}
+
+.chat__subtitle {
+   color: rgb(170, 170, 170);
+   font-size: 16px;
+}
+
+
+
+.chat__container {
+   width: 60%;
+   display: flex;
+   justify-content: space-between;
+}
+.chat__icons {
+   width: 40%;
+   display: flex;
+   justify-content: space-around;
+   
+}
+
+/* ------------Container------- */
+
+.container {
+   width: 100%;
+   display: flex;
+}
+
+.container__people {
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   border-right: 1px solid rgb(255, 255, 255);
+   overflow-y: scroll;
+   height: 100vh;
+   position: relative;
+
+}
+
+.container__chat {
+   width: 60%;
+}
+
+input {
+   margin: 20px;
+   padding: 10px 150px;
+   width: 500px;
+   background: rgb(240, 240, 240);
+   border-radius: 5px;
+}
+
+.input {
+position: absolute;
+top: 30px;
+left: 140px;
+width: 15px;
+height: 15px;
+}
+ 
+
+
+.people__box {
+   padding: 15px 15px;
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+.people__box:hover {
+   background: rgb(240, 240, 240);
+   cursor: pointer;
+}
+
+._mod {
+   background: rgb(240, 240, 240);
+}
+
+.people__photo .photo{
+   border-radius: 50%;
+   width: 100px;
+   height: 100px;
+   /* background: url(./images/people/01.jpg); */
+   background-size:  100px;
+}
+
+.people__photo {
+   position: relative;
+}
+
+.icon {
+   position: absolute;
+   top: 70px;
+   left: 70px;
+   width: 30px;
+   height: 30px;
+}
+
+
+.people__info {
+   display: flex;
+}
+
+.people__name {
+   display: flex;
+   flex-direction: column;
+   /* align-items: center; */
+   justify-content: center;
+   margin-left: 15px;
+   
+   
+}
+
+.people__title {
+   margin-bottom: 5px;
+   font-size: 20px;
+}
+
+.people__text {
+   color: rgb(170, 170, 170);
+   font-size: 16px;
+}
+
+._porter {
+   font-weight: 700;
+   color: black;
+}
+
+.people__time {
+   padding-top: 30px;
+   font-size: 18px;
+}
+
+.chat__send {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   
+}
+
+.chat__send-1 {
+   background: #0285f9;
+   color: #fff;
+   font-size: 20px;
+   margin-bottom: 5px;
+   padding: 10px;
+   border-left: 1px solid transparent;
+   border-radius: 50px 0 0 50px;
+}
+
+._back {
+   background: none;
+}
+
+a {
+   color: #fff;
+}
+
+.chat__incoming {
+   display: flex;
+   
+}
+
+.chat__text {
+   display: flex;
+   align-items: center;
+   font-size: 20px;
+   background: rgb(240, 240, 240);
+   background-position: center;
+   border-radius: 50px 50px 50px 50px;
+   padding: 0 10px;
+   margin-left: 10px;
+   margin-top: 5px;
+   
+}
+
+.chat__photo img{
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+}
+
+.end__block {
+   margin-top: 80px;
+   border-top: 2px solid rgb(206, 206, 206);
+   
+}
+
+.container__chat {
+   position: relative;
+}
+
+.end-input {
+   position: absolute;
+   top: 650px;
+   left: 650px;
+   width: 36px;
+}
+.end-input-1 {
+   position: absolute;
+   top: 650px;
+   left: 705px;
+   width: 55px;
+   filter: grayscale(1);
+}
+
+.end-input-2 {
+   position: absolute;
+   top: 645px;
+   left: 770px;
+   width: 45px;
+}
+.end {
+   width: 820px;
+   padding: 20px;
+   background: rgb(240, 240, 240);
+}
+
